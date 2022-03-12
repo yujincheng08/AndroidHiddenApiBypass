@@ -25,3 +25,4 @@ jobs:
         ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.signingPassword }}
         ORG_GRADLE_PROJECT_ossrhUsername: ${{ secrets.ossrhUsername }}
         ORG_GRADLE_PROJECT_ossrhPassword: ${{ secrets.ossrhPassword }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
